@@ -1,0 +1,1 @@
+export {AccesoriosComponent} from './accesorios.component';

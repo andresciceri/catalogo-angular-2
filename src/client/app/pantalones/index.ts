@@ -1,0 +1,1 @@
+export {PantalonesComponent} from './pantalones.component';

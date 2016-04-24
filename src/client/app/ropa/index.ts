@@ -1,0 +1,1 @@
+export {RopaComponent} from './ropa.component';
