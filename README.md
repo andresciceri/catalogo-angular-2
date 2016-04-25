@@ -9,9 +9,10 @@ Antes de instalar la aplicación, verificar los siguiente requerimientos.
 * Angular-Cli 0.0.33 (No es necesario para correr el proyecto [NG-CLI](https://github.com/angular/angular-cli))
 
 Para instalar las depencias y correr la aplicación:
-1. cd catalogo-angular-2/
-2. npm install.
-3. ng serve (Solo si se tiene instalado Angular-Cli) o npm start.
+
+* cd catalogo-angular-2/
+* npm install
+* ng serve (Solo si se tiene instalado Angular-Cli) o npm start
 
 La aplicación por defecto corre sobre el puerto 4200.
 
