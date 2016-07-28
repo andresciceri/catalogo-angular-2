@@ -40,11 +40,16 @@
 
     
   <script>
-    System.import('system-config.js').then(function(systemConfig) {
-      System.config(systemConfig.config);
-    }).then(function () {
-      System.import('main.js')
-    }).catch(console.error.bind(console));
+    if(System !== undefined)
+    {
+      System.import('system-config.js').then(function(systemConfig) {
+        System.config(systemConfig.config);
+      }).then(function () {
+        System.import('main.js')
+      }).catch(console.error.bind(console));
+    } else {
+      console.log("No esta definido System");
+    }
   </script>
 </body>
 </html>
